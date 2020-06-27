@@ -1,0 +1,191 @@
+table, th, td {
+  border: 3px solid black;
+}
+
+#jumbo {
+  padding: 20px;
+}
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+td {
+  height: 100px;
+  width: 70px;
+  text-align: end;
+}
+
+body {
+margin: 0;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 1rem;
+margin-bottom: 2em;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+background-color: #fff;
+}
+
+/* Css foor image */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Css for House number */
+.text1 { position: absolute; top: 37%; left: 49%; }
+.text2 { position: absolute; top: 18%; left: 25.7%; }
+.text3 { position: absolute; top: 21.5%; left: 23%; }
+.text4 { position: absolute; top: 45%; left: 42%; }
+.text5 { position: absolute; top: 69%; left: 23%; }
+.text6 { position: absolute; top: 72%; left: 25.7%; }
+.text7 { position: absolute; top: 53.5%; left: 49.3%; }
+.text8 { position: absolute; top: 72%; left: 73%; }
+.text9 { position: absolute; top: 69%; left: 75.5%; }
+.text10 { position: absolute; top: 45%; left: 55%; }
+.text11 { position: absolute; top: 21%; left: 75.5%; }
+.text12 { position: absolute; top: 18%; left: 72%; }
+
+/* Css for House 1 */
+.Su1 { position: absolute; top: 5.5%; left: 47%; }
+.Mo1 { position: absolute; top: 11%; left: 42%; }
+.Ve1 { position: absolute; top: 16.5%; left: 37%; }
+.Ma1 { position: absolute; top: 22%; left: 32%; }
+.Me1 { position: absolute; top: 27.5%; left: 37%; }
+.Ju1 { position: absolute; top: 11%; left: 53%; }
+.Sa1 { position: absolute; top: 16.5%; left: 58%; }
+.Ra1 { position: absolute; top: 22%; left: 63%; }
+.Ke1 { position: absolute; top: 27.5%; left: 58%; }
+
+/* Css for house 2 */
+.Su2 { position: absolute; top: 13%; left: 24.7%; }
+.Mo2 { position: absolute; top: 7%; left: 17.7%; }
+.Ve2 { position: absolute; top: 1%; left: 11.7%; }
+.Ma2 { position: absolute; top: 1%; left: 17.7%; }
+.Me2 { position: absolute; top: 1%; left: 38.7%; }
+.Ju2 { position: absolute; top: 7%; left: 31.7%; }
+.Sa2 { position: absolute; top: 1%; left: 31.7%; }
+.Ra2 { position: absolute; top: 7%; left: 24.7%; }
+.Ke2 { position: absolute; top: 1%; left: 24.7%; }
+
+/* Css for house 3 */
+.Su3 { position: absolute; top: 21.7%; left: 18%; }
+.Mo3 { position: absolute; top: 14.7%; left: 11%; }
+.Ve3 { position: absolute; top: 8.7%; left: 5%; }
+.Ma3 { position: absolute; top: 14.7%; left: 5%; }
+.Me3 { position: absolute; top: 35.7%; left: 5%; }
+.Ju3 { position: absolute; top: 28.7%; left: 11%; }
+.Sa3 { position: absolute; top: 28.7%; left: 5%; }
+.Ra3 { position: absolute; top: 21.7%; left: 11%; }
+.Ke3 { position: absolute; top: 21.7%; left: 5%; }
+
+/* Css for house 4 */
+.Su4 { position: absolute; top: 45%; left: 8%; }
+.Mo4 { position: absolute; top: 40%; left: 13%; }
+.Ve4 { position: absolute; top: 35%; left: 19%; }
+.Ma4 { position: absolute; top: 30%; left: 24.5%; }
+.Me4 { position: absolute; top: 35%; left: 31%; }
+.Ju4 { position: absolute; top: 50%; left: 13%; }
+.Sa4 { position: absolute; top: 55%; left: 19%; }
+.Ra4 { position: absolute; top: 60%; left: 25%; }
+.Ke4 { position: absolute; top: 55%; left: 31%; }
+
+/* Css for house 5 */
+.Su5 { position: absolute; top: 69%; left: 18%; }
+.Mo5 { position: absolute; top: 76%; left: 11%; }
+.Ve5 { position: absolute; top: 82%; left: 5%; }
+.Ma5 { position: absolute; top: 76%; left: 5%; }
+.Me5 { position: absolute; top: 55%; left: 5%; }
+.Ju5 { position: absolute; top: 62%; left: 11%; }
+.Sa5 { position: absolute; top: 62%; left: 5%; }
+.Ra5 { position: absolute; top: 69%; left: 11%; }
+.Ke5 { position: absolute; top: 69%; left: 5%; }
+
+/* Css for house 6 */
+.Su6 { position: absolute; top: 76.5%; left: 24.7%; }
+.Mo6 { position: absolute; top: 82.5%; left: 17.7%; }
+.Ve6 { position: absolute; top: 88.5%; left: 11.7%; }
+.Ma6 { position: absolute; top: 88.5%; left: 17.7%; }
+.Me6 { position: absolute; top: 88.5%; left: 38.7%; }
+.Ju6 { position: absolute; top: 82.5%; left: 31.7%; }
+.Sa6 { position: absolute; top: 88.5%; left: 31.7%; }
+.Ra6 { position: absolute; top: 82.5%; left: 24.7%; }
+.Ke6 { position: absolute; top: 88.5%; left: 24.7%; }
+
+/* Css for House 7 */
+.Su7 { position: absolute; top: 84.5%; left: 47%; }
+.Mo7 { position: absolute; top: 79%; left: 42%; }
+.Ve7 { position: absolute; top: 75.5%; left: 37%; }
+.Ma7 { position: absolute; top: 68%; left: 32%; }
+.Me7 { position: absolute; top: 62.5%; left: 37%; }
+.Ju7 { position: absolute; top: 79%; left: 53%; }
+.Sa7 { position: absolute; top: 73.5%; left: 58%; }
+.Ra7 { position: absolute; top: 68%; left: 63%; }
+.Ke7 { position: absolute; top: 62.5%; left: 58%; }
+
+/* Css for house 8 */
+.Su8 { position: absolute; top: 76.5%; left: 72.3%; }
+.Mo8 { position: absolute; top: 82.5%; left: 79.3%; }
+.Ve8 { position: absolute; top: 88.5%; left: 85.3%; }
+.Ma8 { position: absolute; top: 88.5%; left: 79.3%; }
+.Me8 { position: absolute; top: 88.5%; left: 58.3%; }
+.Ju8 { position: absolute; top: 82.5%; left: 65.3%; }
+.Sa8 { position: absolute; top: 88.5%; left: 65.3%; }
+.Ra8 { position: absolute; top: 82.5%; left: 72.3%; }
+.Ke8 { position: absolute; top: 88.5%; left: 72.3%; }
+
+/* Css for house  9*/
+.Su9 { position: absolute; top: 69%; left: 80%; }
+.Mo9 { position: absolute; top: 76%; left: 86%; }
+.Ve9 { position: absolute; top: 82%; left: 92%; }
+.Ma9 { position: absolute; top: 76%; left: 92%; }
+.Me9 { position: absolute; top: 55%; left: 92%; }
+.Ju9 { position: absolute; top: 62%; left: 86%; }
+.Sa9 { position: absolute; top: 62%; left: 92%; }
+.Ra9 { position: absolute; top: 69%; left: 86%; }
+.Ke9 { position: absolute; top: 69%; left: 92%; }
+
+/* Css for house 10 */
+.Su10 { position: absolute; top: 45%; left: 87%; }
+.Mo10 { position: absolute; top: 40%; left: 82%; }
+.Ve10 { position: absolute; top: 35%; left: 76%; }
+.Ma10 { position: absolute; top: 30%; left: 70.5%; }
+.Me10 { position: absolute; top: 35%; left: 64%; }
+.Ju10 { position: absolute; top: 50%; left: 82%; }
+.Sa10 { position: absolute; top: 55%; left: 76%; }
+.Ra10 { position: absolute; top: 60%; left: 70%; }
+.Ke10 { position: absolute; top: 55%; left: 64%; }
+
+/* Css for house 11 */
+.Su11 { position: absolute; top: 21%; left: 80%; }
+.Mo11 { position: absolute; top: 14%; left: 86%; }
+.Ve11 { position: absolute; top: 8%; left: 92%; }
+.Ma11 { position: absolute; top: 14%; left: 92%; }
+.Me11 { position: absolute; top: 35%; left: 92%; }
+.Ju11 { position: absolute; top: 28%; left: 86%; }
+.Sa11 { position: absolute; top: 28%; left: 92%; }
+.Ra11 { position: absolute; top: 21%; left: 86%; }
+.Ke11 { position: absolute; top: 21%; left: 92%; }
+
+/* Css for house 12 */
+.Su12 { position: absolute; top: 13%; left: 72.3%; }
+.Mo12 { position: absolute; top: 7%; left: 79.3%; }
+.Ve12 { position: absolute; top: 1%; left: 85.3%; }
+.Ma12 { position: absolute; top: 1%; left: 79.3%; }
+.Me12 { position: absolute; top: 1%; left: 58.3%; }
+.Ju12 { position: absolute; top: 7%; left: 65.3%; }
+.Sa12 { position: absolute; top: 1%; left: 65.3%; }
+.Ra12 { position: absolute; top: 7%; left: 72.3%; }
+.Ke12 { position: absolute; top: 1%; left: 72.3%; }
+
