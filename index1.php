@@ -9,9 +9,9 @@
 	$POB = $_POST['POB'];
 	$Age = $_POST['Age'];
 	$sql1 = "INSERT INTO `yearly kundali`.`personalinfo` ( `DOB`, `TOB`, `POB`, `Age`) VALUES ( '$DOB', '$TOB', '$POB', '$Age')";
-	echo $sql1;
+	//echo $sql1;
 	if ($con->query($sql1) == true){
-		echo "success";
+		//echo "success";
 	}
 	else{
 		echo "ERROR: $sql1 <br> $con->error";
@@ -26,15 +26,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<div class="container-fluid jumbotron jumbotron-fluid text-center col-12 col-sm-12 col-md-12 col-lg-12" id="jumbo">
+	<body style="background-color: #F8EFBA;" class="text-center">
+		<div class="container-fluid jumbotron jumbotron-fluid text-center col-12 col-sm-12 col-md-12 col-lg-12" id="jumbo" style="background-color: #2bcbba;">
 			<h1>Data Input</h1>
 			<p>Enter your data to check the info</p>
 		</div>
-		<section class="container text-center">
+		<section class="container">
 			<h1 class="text-center">Birth Kundali info</h1>
-			<hr class="container">
+			<hr>
 			<form action="index2.php" method="post">
 				<table class="table table-bordered">
 					<thead>
@@ -64,11 +65,12 @@
 							<td><input type="text" name="Saturn" id="Saturn" class="form-control" value="0"></td>
 							<td><input type="text" name="Rahu" id="Rahu" class="form-control" value="0"></td>
 							<td><input type="text" name="Ketu" id="Ketu" class="form-control" value="0"></td>
-							<td><button type="submit" class="btn text-left">Submit</button></td>
+							<td><button type="submit" class="btn text-left">Data</button></td>
 						</tr>
 					</tbody>
 				</table>
 			</form>
+			<hr>
 		</section>
 		<script src="index.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
